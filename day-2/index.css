@@ -1,3 +1,6 @@
+*{
+    font-family:Arial, Helvetica, sans-serif
+}
 #navcntr{
     width: 98%;
     height: 65px;
@@ -47,4 +50,67 @@ a,select{
 #second a{
     padding-right: 5px;
     border-right: 1px solid black;
+}
+#maindiv{
+    position: relative;
+    cursor: pointer;
+}
+#maindiv button{
+    position: absolute;
+    top: 45%;
+    border: none;
+    background-color: rgba(100, 100, 100, 0);
+    font-size: 1.5rem;
+    color: orangered;
+}
+#maindiv button:nth-child(2){
+    left: 50px;
+}
+#maindiv button:nth-child(3){
+    right: 50px;
+}
+#crauser{
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+}
+#circle{
+    padding: 10px;
+    display: flex;
+    gap: 7px;
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+}
+#circle>div{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    left: 55px;
+    border: none;
+}
+#wplogo{
+    width: 40px;
+    position: absolute;
+    bottom: 35px;
+    right: 30px;
+}
+#wplogo+a{
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+}
+#fast{
+    width: 95%;
+    margin-left: 40px;
+    margin-top: 9px;
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+#fast>div{
+    border: 0.1px solid rgb(130, 128, 128);
+    height: 0px;
+    width: 83%;
+    margin-left: 6px;
 }
