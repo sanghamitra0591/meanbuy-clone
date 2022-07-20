@@ -1,0 +1,50 @@
+#navcntr{
+    width: 98%;
+    height: 65px;
+    padding: 20px 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+#upper{
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+#first{
+    width: 45%;
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+#first>img{
+    width: 31%;
+}
+#first>input{
+    width: 55%;
+    height: 25px;
+}
+#second{
+    display: flex;
+    height: 30%;
+    gap: 5px;
+    align-items: center;
+    margin-left: 7%;
+}
+#third img{
+    width: 30px;
+}
+#lower{
+    display: flex;
+    gap: 40px;
+    font-size: 14px;
+    margin: 2% auto auto 8%;
+}
+a,select{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    border: none;
+}
+#second a{
+    padding-right: 5px;
+    border-right: 1px solid black;
+}
