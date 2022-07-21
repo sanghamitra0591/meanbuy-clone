@@ -24,6 +24,7 @@
 #first>input{
     width: 55%;
     height: 25px;
+    padding: 5px;
 }
 #second{
     display: flex;
@@ -38,14 +39,18 @@
 #lower{
     display: flex;
     gap: 40px;
-    font-size: 14px;
+    font-size: 11px;
     margin: 2% auto auto 8%;
 }
 a,select{
     text-decoration: none;
     color: black;
-    font-size: 13px;
+    font-size: 11px;
     border: none;
+}
+select{
+    font-size: 12px;
+    margin-right: 40px;
 }
 #second a{
     padding-right: 5px;

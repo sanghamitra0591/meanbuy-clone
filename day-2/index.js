@@ -4,6 +4,9 @@ let imglink=[
     "https://d64lkarmo2mrq.cloudfront.net/img/home/womenswatches2022.webp",
     "https://d64lkarmo2mrq.cloudfront.net/img/home/nordic2022.webp",
 ]
+document.getElementById("mean").addEventListener("click",function(){
+    window.location.assign("http://127.0.0.1:5500/murky-rate-2238/day-2/index.html")
+})
 let leftb=document.getElementById("leftb");
 let rightb=document.getElementById("rightb");
 let num1=document.getElementById("num1");
