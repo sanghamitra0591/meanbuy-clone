@@ -52,10 +52,6 @@ select{
     font-size: 12px;
     margin-right: 40px;
 }
-#second a{
-    padding-right: 5px;
-    border-right: 1px solid black;
-}
 #maindiv{
     position: relative;
     cursor: pointer;
