@@ -152,7 +152,8 @@ select{
 }
 #giantdiv>div:nth-child(1)>div:nth-child(3){
     text-align: center;
-    font-size: 13px;
+    font-size: 12px;
+    margin-top: -5px;
 }
 #giantdiv>div:nth-child(2){
     width: 32.5%;
