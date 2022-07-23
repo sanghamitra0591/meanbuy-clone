@@ -1,5 +1,5 @@
 *{
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
 }
 #navcntr{
     width: 98%;
@@ -10,7 +10,6 @@
 #upper{
     height: 50%;
     display: flex;
-    justify-content: space-between;
 }
 #first{
     width: 45%;
@@ -31,12 +30,13 @@
     height: 30%;
     gap: 5px;
     align-items: center;
-    margin-left: 19%;
+    margin-left: 27%;
 }
 #second>a:hover{
     text-decoration: underline;
 }
-#lower{
+
+#lower>div{
     display: flex;
     gap: 40px;
     font-size: 11px;
@@ -121,36 +121,22 @@ select{
     margin-left: 6px;
 }
 #third{
+    width: 60px;
     display: flex;
+    justify-content: start;
+    margin-left: 25px;
     align-items: center;
 }
-#third>div:nth-child(2) img{
-    width: 20px;
+#third>div>img{
+    width: 25px;
 }
-#third>div:nth-child(1){
-    margin-top: -25px;
-}
-#third>div:nth-child(2){
+#third>div{
     display: flex;
     font-size: 11px;
     align-items: center;
 }
-#third>div:nth-child(2)>p{
+#third>div>p{
     margin-top: 0px;
-}
-#third>div:nth-child(1)>div{
-    display: flex;
-    gap: 5px;
-    font-size: 11.5px;
-    height: auto;
-    color: rgba(0, 0, 0, 0.67);;
-}
-#third>div:nth-child(1)>div:nth-child(2){
-    font-size: 13.5px;
-    font-weight: bold;
-    color: rgba(0, 0, 0, 0.726);;
-    margin-top: -6px;
-    margin-left: -25px;
 }
 #third>div{
     margin-left: 70px;
@@ -165,4 +151,12 @@ select{
 #signb:hover{
     text-decoration: underline;
     color: blue;
+}
+#menu{
+    border: none;
+    background-color: white;
+}
+#menu>img{
+    width: 20px;
+    margin-left: 20px;
 }

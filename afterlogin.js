@@ -4,9 +4,7 @@ let imglink=[
     "https://d64lkarmo2mrq.cloudfront.net/img/home/womenswatches2022.webp",
     "https://d64lkarmo2mrq.cloudfront.net/img/home/nordic2022.webp",
 ]
-document.getElementById("mean").addEventListener("click",function(){
-    window.location.assign("./index.html")
-})
+
 let leftb=document.getElementById("leftb");
 let rightb=document.getElementById("rightb");
 let num1=document.getElementById("num1");
@@ -127,12 +125,13 @@ logo.addEventListener("click",function(){
     window.location.assign("./wp.html");
 })
 
-document.querySelector("#logb").addEventListener("click",function(){
-    window.location.assign("./login.html")
-});
-document.querySelector("#signb").addEventListener("click",function(){
-    window.location.assign("./signup.html")
-})
 document.querySelector("#mean").addEventListener("click",function(){
-    window.location.assign("./index.html")
+    window.location.assign("./afterlogin.html")
 })
+
+
+
+let menu=document.querySelector("#menu");
+menu.addEventListener("click",menuoption);
+let maindiv=document.querySelector("#lower");
+let name=JSON.parse(localStorage.getItem("logindata"))

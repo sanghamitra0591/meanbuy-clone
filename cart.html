@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="cart.css">
 </head>
 <body>
     <head>
@@ -13,7 +13,6 @@
             <div id="upper">
                 <div id="first">
                     <img id="mean" src="https://d64lkarmo2mrq.cloudfront.net/baselogo.png" alt="img" />
-                    <input type="search" placeholder="search">
                 </div>
                 <div id="second">
                     <a href="./seller.html">Seller's Corner  |</a>
@@ -22,8 +21,9 @@
                     <a href="">Delivery Info</a>
                 </div>
                 <div id="third">
-                    <div id="cleardata">
+                    <div>
                         <div>
+                            <img src="https://thumbs.dreamstime.com/b/user-icon-simple-thin-line-outline-vector-web-icons-ui-ux-website-mobile-application-white-background-156326092.jpg" alt="img">
                             <p id="logb">LOGIN</p>
                             <p>/</p>
                             <p id="signb">SIGN UP</p>
@@ -37,36 +37,28 @@
                 </div>
             </div>
             <div id="lower">
-                <select>
-                    <option>Categories</option>
-                </select>
-                <a href="">Flash Sales</a>
-                <a href="">Best Deals</a>
-                <a href="">Shop by Brand</a>
-                <a href="">Trending</a>
-                <a href="">New Arrivals</a>
+                <p>Shopping Cart<span id="itemsnum">(0 items)</span> | </p>
+                <button id="mainpage">Continue Shopping</button>
             </div>
         </div>
     </head>
-    <div id="maindiv">
-        <img id="crauser" src="https://d64lkarmo2mrq.cloudfront.net/img/home/freedom2222.webp" alt="img">
-        <button id="leftb"><</button>
-        <button id="rightb">></button>
-        <div id="circle">
-            <div id="num1"></div>
-            <div id="num2"></div>
-            <div id="num3"></div>
-            <div id="num4"></div>
-        </div>
-    </div>
-    <div id="fast">
-        <h3>Fast Moving Products</h3>
-        <div></div>
-    </div>
-    <div>
-        <img id="wplogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1200px-WhatsApp.svg.png" alt="img">
-        <a href="./wp.html">Message Us!</a>
+    <div id="body">
+        <h1>SHOPPING CART</h1>
+        <p>Is Empty! Come on, throw something in here...</p>
     </div>
 </body>
 </html>
-<script src="index.js"></script>
+<script>
+    document.querySelector("#logb").addEventListener("click",function(){
+        window.location.assign("./login.html")
+    });
+    document.querySelector("#signb").addEventListener("click",function(){
+        window.location.assign("./signup.html")
+    })
+    document.querySelector("#mean").addEventListener("click",function(){
+        window.location.assign("./index.html")
+    })
+    document.querySelector("#mainpage").addEventListener("click",function(){
+        window.location.assign("./index.html")
+    })
+</script>

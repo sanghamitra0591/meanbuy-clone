@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
-    <link rel="stylesheet" href="login.css">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="aftersignup.css">
 </head>
 <body>
     <head>
@@ -38,7 +38,7 @@
             </div>
             <div id="lower">
                 <p>Login / Sign Up | </p>
-                <button id="mainpage">Continue Shopping</button>
+                <button id="mainpage">Continue Shopping </button>
             </div>
         </div>
     </head>
@@ -55,18 +55,11 @@
                         Sign in</button>
                 </div>
             </div>
-            <form>
-                <p id="nomail"></p>
-                <p id="nopass"></p>
-                <label>Email Address</label>
-                <input id="mail" type="email" placeholder="Email Address">
-                <label>Password</label>
-                <input id="password" type="password" placeholder="Password">
-                <input type="submit" value="Login">
-            </form>
             <div>
-                <p>Forgot Password?</p>
-                <a href="./signup.html">New to Meanbuy?Sign Up!</a>
+                <div>
+                    <P>Please check your email in order to confirm your email address.</P>
+                </div>
+                <button id="confirmed">Click here if you have already confirmed</button>
             </div>
         </div>
         <div>
@@ -80,7 +73,7 @@
                 </div>
                 <div>
                     <p>Cart Total: <span>₹0.00</span></p>
-                    <button id="cartt">EDIT CART</button>
+                    <button>EDIT CART</button>
                 </div>
             </div>
             <div>
@@ -93,4 +86,21 @@
     </div>
 </body>
 </html>
-<script src="./login.js"></script>
+
+<script>
+    document.querySelector("#logb").addEventListener("click",function(){
+        window.location.assign("./login.html")
+    })
+    document.querySelector("#signb").addEventListener("click",function(){
+        window.location.assign("./signup.html")
+    })
+    document.querySelector("#mainpage").addEventListener("click",function(){
+        window.location.assign("./index.html")
+    })
+    document.querySelector("#mean").addEventListener("click",function(){
+        window.location.assign("./index.html")
+    })
+    document.querySelector("#confirmed").addEventListener("click",function(){
+        window.location.assign("./index.html")
+    })
+</script>

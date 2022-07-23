@@ -1,5 +1,5 @@
 *{
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
 }
 #navcntr{
     width: 97%;
@@ -52,7 +52,7 @@
     gap: 5px;
     font-size: 12px;
     height: auto;
-    color: rgba(0, 0, 0, 0.603);;
+    color: rgba(0, 0, 0, 0.603);
 }
 #third>div:nth-child(1)>div>img{
     width: 35px;
@@ -62,7 +62,7 @@
 #third>div:nth-child(1)>div:nth-child(2){
     font-size: 14px;
     font-weight: bold;
-    color: rgba(0, 0, 0, 0.63);;
+    color: rgba(0, 0, 0, 0.63);
     margin-top: -6px;
 }
 #cart{
@@ -99,7 +99,6 @@ select{
 #giantdiv{
     border: 1px solid rgb(204, 201, 201);
     display: flex;
-    width: 99%;
     margin-top: 20px;
     margin-left: -8px;
     gap: 30px;
@@ -234,6 +233,11 @@ form>input{
 }
 form>label{
     font-size: 12px;
+}
+#nomail,#nopass{
+    text-align: center;
+    font-size: 14px;
+    color: rgba(226, 74, 104, 0.725);
 }
 form>input[type="submit"]{
     width: 100%;
