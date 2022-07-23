@@ -128,10 +128,3 @@ logo.addEventListener("click",function(){
 document.querySelector("#mean").addEventListener("click",function(){
     window.location.assign("./afterlogin.html")
 })
-
-
-
-let menu=document.querySelector("#menu");
-menu.addEventListener("click",menuoption);
-let maindiv=document.querySelector("#lower");
-let name=JSON.parse(localStorage.getItem("logindata"))
