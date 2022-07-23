@@ -1,0 +1,130 @@
+*{
+    font-family:sans-serif;
+}
+head{
+    position: relative;
+}
+#logohead{
+    height: 70px;
+    width: 100%;
+    margin-top: -80px;
+    padding: 15px;
+    margin-left: -10px;
+    position: fixed;
+    background-color: white;
+}
+#logohead>img{
+    height: 55px;
+}
+#body{
+    width:90%;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+#body>div{
+    width:49%;
+}
+#body>div:nth-child(1){
+    margin-top: 130px;
+    color: rgb(82, 82, 82);
+}
+#body>div:nth-child(1)>div:nth-child(1){
+    font-size: 13.4px;
+    text-align: justify;
+    color: rgb(82, 82, 82);
+}
+#body>div:nth-child(1)>div:nth-child(1)>p:nth-child(1){
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#body>div:nth-child(1)>div:nth-child(2){
+    margin-right: 90px;
+    display: grid;
+    gap: 20px 90px;
+    grid-template-columns: repeat(2,1fr);
+}
+#body>div:nth-child(1)>div:nth-child(2)>div{
+    background-color: #EAEAEA;
+    text-align:center;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 40px;
+}
+#body>div:nth-child(1)>div:nth-child(2)>div>h2{
+    color: #F7941D;
+    font-size: 30px;
+    font-weight: lighter;
+}
+#body>div:nth-child(1)>div:nth-child(2)>div>h2+p{
+    color: #F7941D;
+}
+form>input{
+    width: 98%;
+    border: none;
+    border-bottom: 1px solid rgb(208, 206, 206);
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+label{
+    font-size: 12px;
+    color: rgb(145, 143, 143);
+}
+form>div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+}
+form>div:nth-child(1)>div{
+    width: 50%;
+}
+form>div:nth-child(1) input{
+    width: 99%;
+    border: none;
+    border-bottom: 1px solid rgb(208, 206, 206);
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#formdiv{
+    margin-top: 50px;
+}
+#formdiv>div{
+    border-bottom: 1px solid black;
+    font-size: 23px;
+    color: rgb(75, 74, 74);
+    text-align: center;
+}
+#formdiv>div>p{
+    margin-bottom: 10px;
+}
+#formdiv>div+p{
+    color: rgb(82, 82, 82);
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+#formdiv>div+p>a{
+    text-decoration: none;
+    color: rgb(77, 135, 241);
+}
+.divo>label{
+    color: rgb(85, 84, 84);;
+    font-size: 14px;
+    font-weight: bold;
+}
+input[type="submit"]{
+    width: 250px;
+    height: 45px;
+    border: none;
+    margin-top: 25px;
+    background-color: #F7941D;
+    color: white;
+}
+select{
+    width: 98%;
+    border: none;
+    border-bottom: 1px solid rgb(208, 206, 206);
+    margin-top: 5px;
+    margin-bottom: 10px;
+}

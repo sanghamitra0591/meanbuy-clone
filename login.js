@@ -4,3 +4,9 @@ document.querySelector("#logb").addEventListener("click",function(){
 document.querySelector("#signb").addEventListener("click",function(){
     window.location.assign("http://127.0.0.1:5500/day-3/murky-rate-2238/signup.html")
 })
+document.querySelector("#mean").addEventListener("click",function(){
+    window.location.assign("http://127.0.0.1:5500/day-4/murky-rate-2238/index.html")
+})
+document.querySelector("#mainpage").addEventListener("click",function(){
+    window.location.assign("http://127.0.0.1:5500/day-4/murky-rate-2238/index.html")
+})
