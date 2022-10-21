@@ -1,5 +1,5 @@
 let imglink=[
-    "https://d64lkarmo2mrq.cloudfront.net/img/home/freedom2222.webp",
+    "https://d64lkarmo2mrq.cloudfront.net/img/home/watch-banner4.webp",
     "https://d64lkarmo2mrq.cloudfront.net/img/home/bluetooth2022.webp",
     "https://d64lkarmo2mrq.cloudfront.net/img/home/womenswatches2022.webp",
     "https://d64lkarmo2mrq.cloudfront.net/img/home/nordic2022.webp",
