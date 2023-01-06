@@ -1,0 +1,19 @@
+
+#container{
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#filtercomp{
+    border: 1px solid black;
+    width: 15%;
+    border-right: 0.5px solid grey;
+}
+#productcomp{
+    border: 1px solid black;
+    width: 80%;
+}
+#brandsdiv{
+    display: none;
+}
